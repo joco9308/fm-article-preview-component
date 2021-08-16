@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/mobile-first-site-using-flexbox-Zb73ffVX8)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/mobile-first-site-using-flexbox-nZUWiczba)
 - Live Site URL: [Live site](https://joco9308.github.io/fm-article-preview-component/)
 
 ## My process

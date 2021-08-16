@@ -36,24 +36,27 @@ article {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 20px 40px hsla(217, 19%, 35%, 20%);
+    display: grid;
+    grid-template-columns: 1fr;
 }
-article > header {
+.illustration-wrapper {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
+    filter: brightness(1.1);
 }
 
 .article-illustration {
     width: 100%;
 }
 
-article section header {
+article h2 {
     padding: 30px;
     padding-bottom: 15px;
     color: var(--very-dark-grayish-blue);
 }
 
-article section p {
+article p {
     padding: 0 30px;
 }
 
@@ -143,26 +146,28 @@ article footer {
 
 @media only screen and (min-width: 1440px) {
     article {
-        display: flex;
         max-width: 730px;
+        grid-template-columns: 7fr 11fr;
+        grid-template-areas: 'illustration h2' 'illustration p' 'illustration footer';
     }
-    article > header {
+    .illustration-wrapper {
+        grid-area: illustration;
         flex: 7;
         background: url(images/drawers.jpg) no-repeat;
         background-size: auto 100%;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
     }
     
-    article > section {
-        flex: 11;
-    }
-    article > section > header {
+    article > h2 {
+        grid-area: h2;
         padding: 35px 40px 12px 40px;
         font-size: 1.35rem;
     }
 
-    article > section > p {
+    article > p {
+        grid-area: p;
         padding: 0 40px;
         line-height: 20px;
     }
