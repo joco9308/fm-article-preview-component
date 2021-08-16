@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/mobile-first-site-using-flexbox-Zb73ffVX8)
-- Live Site URL: [Live site](https://joco9308.github.io/fm-faq-accordion-card/)
+- Live Site URL: [Live site](https://joco9308.github.io/fm-article-preview-component/)
 
 ## My process
 
