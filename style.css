@@ -50,7 +50,7 @@ article {
     width: 100%;
 }
 
-article h2 {
+article h1 {
     padding: 30px;
     padding-bottom: 15px;
     color: var(--very-dark-grayish-blue);
@@ -148,7 +148,7 @@ article footer {
     article {
         max-width: 730px;
         grid-template-columns: 7fr 11fr;
-        grid-template-areas: 'illustration h2' 'illustration p' 'illustration footer';
+        grid-template-areas: 'illustration h1' 'illustration p' 'illustration footer';
     }
     .illustration-wrapper {
         grid-area: illustration;
@@ -160,8 +160,8 @@ article footer {
         border-top-right-radius: 0;
     }
     
-    article > h2 {
-        grid-area: h2;
+    article > h1 {
+        grid-area: h1;
         padding: 35px 40px 12px 40px;
         font-size: 1.35rem;
     }
